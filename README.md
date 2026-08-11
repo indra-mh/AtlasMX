@@ -52,5 +52,5 @@ Cada archivo tiene su propio descriptor de las variables en su interior.
 
 Además contiene el archivo `info_estado.xlsx` que indica la clasificación por regiones centronorte, noroeste, sureste, noreste, occidente, suroeste, centrosur, oriente de cada estado de la república.
 
-`app.R`
+### `app.R`
 Script de la aplicación realizada con shiny para mostrar diferentes filtrados de la información de Población y Vivienda en México.
