@@ -1,26 +1,20 @@
 # AtlasMX
-Visualizador de 
+Visualizador de datos municipales de educación, vivienda, etc. en México.
 
-Colaboradores actuales:
-
-Ingrid (rama main)
-Andrea (rama aportes-A)
-Rodrigo
+*Colaboradores actuales*: Ingrid, Andrea, Rodrigo
 
 ## Índice
 
 - [Objetivo](#objetivo)
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Resultados](#resultados)
-- [Descripción de contenido](#contenido)
+- [Contenido](#contenido)
 
 ## Objetivo
 
 ## Instalación
 ### Requisitos
-* R (versión por incluir)
-* Dependencias por incluir
+* R
 
 ### Pasos
 
@@ -37,13 +31,25 @@ cd AtlasMX/
 git checkout -b aportes-X
 ```
 3. Instalar dependencias
-```bash
-.
+```r
+install.packages(c(
+  "shiny",
+  "shinyWidgets",
+  "DT",
+  "bslib",
+  "shinyjs",
+  "tidyverse"
+))
 ```
-
 ## Uso
 
-## Resultados
+Para ejecutar la aplicación, abrir R desde la carpeta raíz del proyecto y ejecutar:
+
+```r
+shiny::runApp()
+```
+
+La aplicación se abrirá en el navegador.
 
 ## Descripción de contenido
 ### Carpeta `data`
